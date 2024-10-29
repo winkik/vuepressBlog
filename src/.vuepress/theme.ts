@@ -13,7 +13,7 @@ export default hopeTheme({
 
   // logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  // repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "winkik/winkik.github.io",
 
   docsDir: "src",
   //暗黑模式切换

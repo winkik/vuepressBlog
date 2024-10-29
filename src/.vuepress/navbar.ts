@@ -5,38 +5,29 @@ export default navbar([
   {
     text: "后端",
     icon: "pen-to-square",
-    prefix: "/posts/backend",
+    prefix: "/posts/backend/",
     children: [
       {
         text: "java",
         icon: "pen-to-square",
-        prefix: "java/",
-        children: [
-          
-        ],
+        link: "java/"
       },
       {
         text: "python",
         icon: "pen-to-square",
-        prefix: "python/",
-        children: [
-          
-        ],
+        link: "python/",
       },
       { 
         text: "rust",
         icon: "pen-to-square", 
-        prefix: "rust/",
-        children: [
-
-        ]
+        link: "rust/",
       },
     ],
   },
   {
     text: "前端",
     icon: "book",
-    prefix: "/post/frontend",
+    prefix: "/post/frontend/",
     children: [
 
     ]
