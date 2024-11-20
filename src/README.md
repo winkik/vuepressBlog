@@ -3,8 +3,8 @@ home: true
 layout: BlogHome
 icon: home
 title: home
-# bgImage: assets/images/bgImage.png
-bgImage: https://winkik.github.io/picx-images-hosting/9439aad9fd9a455b9fe428221378afd2.67xgvg77sh.webp
+bgImage: assets/images/test.jpg
+# bgImage: https://winkik.github.io/picx-images-hosting/9439aad9fd9a455b9fe428221378afd2.67xgvg77sh.webp
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: winkit
 heroFullScreen: true
