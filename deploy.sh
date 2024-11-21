@@ -8,7 +8,7 @@ set -e
 pnpm run docs:build
 git add .
 git commit -m 'build'
-git push  git@github.com:winkik/vuepressBlog.git
+# git push  git@github.com:winkik/vuepressBlog.git
 # 进入生成的文件夹
 cd src/.vuepress/dist
 
