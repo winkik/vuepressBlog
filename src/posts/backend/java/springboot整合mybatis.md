@@ -28,7 +28,7 @@ article: true
 ```yml
 spring:
   datasource:
-    url: jdbc:mysql://101.35.217.89:3306/air_fryer?useUnicode=true
+    url: jdbc:mysql://101.35.217.89:3306/air_fryer?useUnicode=true&characterEncoding=utf-8&useSSL=true
     username: root
     password: xxxx
     driver-class-name: com.mysql.cj.jdbc.Driver
