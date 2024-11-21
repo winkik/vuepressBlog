@@ -57,3 +57,13 @@ mybatis:
 3. 配置扫描mapper接口类
    - 在启动类上加入`@MapperScan("接口路径")`
    - 在每个接口类中加入`@Mapper()`注解
+
+4. 编写xml文件
+   >
+   > namespace指向对应的接口类的路径
+   ```xml
+   <?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    <mapper namespace="com.winkky.cloud.airfryer.dao.IEnvDao"></mapper>
+    ```
+    
