@@ -33,3 +33,49 @@ article: true
    ```
 
 ## 提交规范
+### commit message格式
+      <type>(<scope>): <subject>
+      例：feat(miniprogram): 增加了小程序模板消息相关功能
+`scope` : commit作用范围 
+`subject` : 描述
+`type` : 提交类型，分类如下：
+- feat - 新功能 feature
+- fix - 修复 bug
+- docs - 文档注释
+- style - 代码格式(不影响代码运行的变动)
+- refactor - 重构、优化(既不增加新功能，也不是修复bug)
+- perf - 性能优化
+- test - 增加测试
+- chore - 构建过程或辅助工具的变动
+- revert - 回退
+- build - 打包
+  
+## 分支管理
+1. 创建分支
+   ```bash
+   git branch dev
+   ```
+2. 切换到指定分支
+   ```bash
+   git checkout dev
+   or
+   git switch dev
+   ```
+> 以上两步可以合并为：
+```bash
+   git checkout -b dev
+```
+3. 查看当前分支：
+   ```bash
+   git branch
+   * dev  #'*' 标记当前所在分支
+   master
+   ```
+4. 合并指定分支到当前分支上：
+   ```bash
+   git merge dev #将dev分支合并到master分支
+   ```
+5. 删除分支：
+   ```bash
+   git branch -d dev
+   ```
