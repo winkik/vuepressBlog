@@ -34,8 +34,10 @@ article: true
 
 ## 提交规范
 ### commit message格式
+      ```bash
       <type>(<scope>): <subject>
       例：feat(miniprogram): 增加了小程序模板消息相关功能
+      ```
 `scope` : commit作用范围 
 `subject` : 描述
 `type` : 提交类型，分类如下：
