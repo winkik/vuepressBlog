@@ -1,6 +1,6 @@
 ---
-title: git常用指令
-data: 2024-11-20
+title: git相关
+date: 2024-11-20
 article: true
 ---
 # git相关
