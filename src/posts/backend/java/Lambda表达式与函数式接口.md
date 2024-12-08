@@ -1,6 +1,6 @@
 ---
 title: Lambda表达式与函数式接口
-date: 2024-12-8
+date: 2024-12-08
 article: true
 ---
 
