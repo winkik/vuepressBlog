@@ -43,9 +43,17 @@ Lambda是一个匿名函数，它允许将函数作为方法的参数传递
 
 ```java
 类名 ::new 
- 
-//  Function<String, Integer> stringToInteger = (String s) -> Integer.parseInt(s) = Integer::parseInt;
 ```
+
+**例**：
+
+```java
+Function<String, Integer> stringToInteger 
+    = (String s) -> Integer.parseInt(s)
+    = Integer::parseInt;
+```
+
+**注意**：
 
 - Lambda体中调用方法的参数列表与返回值类型，要与函数式接口中抽象方法的函数列表和返回值类型保存一致
 - 若Lambda参数列表中的第一个参数是实例方法的调用者，而第二个参数是实例方法的参数时，可以使用ClassName::method
