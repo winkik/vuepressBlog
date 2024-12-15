@@ -154,7 +154,7 @@ public void testSlf4j() {
 
 **注意**：
 
-- **Spring-boot-starter中以存在相关依赖，无需再手动引入**
+- **Spring-boot-starter中已存在相关依赖，无需再手动引入**
 
 ![](https://winkik.github.io/picx-images-hosting/image.2krz273unc.webp)
 
