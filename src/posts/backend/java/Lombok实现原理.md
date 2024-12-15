@@ -26,7 +26,7 @@ article: true
 
 - `Pluggable Annotation Processing API`：**`JSR 269`**自`JDK6`加入，作为`apt`的替代方案，它解决了`apt`的两个问题，`javac`在执行的时候会调用实现了该`API`的程序，这样我们就可以对编译器做一些增强，这时`javac`执行的过程如下： 
 
-　　　　　　![img](https://img2020.cnblogs.com/blog/1010726/202010/1010726-20201011174447659-1571513568.png)
+　　　　　　![img](https://winkik.github.io/picx-images-hosting/image.92q6vlm33l.webp)
 
 　　`Lombok`本质上就是一个实现了[`JSR 269 API`](https://www.jcp.org/en/jsr/detail?id=269)的程序。在使用`javac`的过程中，它产生作用的具体流程如下：
 
