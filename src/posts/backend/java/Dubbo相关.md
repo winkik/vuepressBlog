@@ -1,3 +1,8 @@
+---
+title: Dubbo相关
+date: 2024-12-24
+article: true
+---
 # 什么是Dubbo?
 
 Apache Dubbo 是一个易于使用的 Web 和 RPC 框架，为通信、服务发现、流量管理、可观察性、安全、工具以及构建企业级微服务的最佳实践提供了多种语言实现（Java、Go、Rust、Node.js、Web）。
