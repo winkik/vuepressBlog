@@ -1,5 +1,11 @@
-# 架构
-![](https://cdn.nlark.com/yuque/0/2024/png/42693057/1717634953280-4b220ea8-eb0b-4876-8d7f-af57097b00ec.png)、
+---
+title: docker相关
+date: 2024-11-20
+article: true
+---
+# Docker相关
+## 架构
+![](https://winkik.github.io/picx-images-hosting/image.64dyyowjn8.webp)
 
 ```shell
 docker build 构建镜像
@@ -7,10 +13,10 @@ docker pull 从仓库拉取镜像
 docker run 运行镜像
 ```
 
-# 安装（debian）
-详见  
+## 安装（debian）
+**详见:**
 
-[https://docs.docker.com/engine/install/debian/](https://docs.docker.com/engine/install/debian/)
+<https://docs.docker.com/engine/install/debian/>
 
 1. 卸载冲突包
 
@@ -65,7 +71,7 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
-# 常见命令
+## 常见命令
 ### 基本操作
 1.  **查看 Docker 版本** 
 
@@ -241,8 +247,8 @@ docker volume rm [卷名]
 docker volume inspect [卷名]
 ```
 
-# 使用Dockerfile构建镜像
-## 流程
+## 使用Dockerfile构建镜像
+### 流程
 1.  创建一个目录  
 
 ```bash
@@ -265,7 +271,7 @@ docker build -t my-python-app .
 . 表示Dockerfile所在的当前目录
 ```
 
-##  常用指令  
+###  常用指令  
 Dockerfile 是用来定义 Docker 镜像构建过程的文件。以下是一些常用的 Dockerfile 指令及其详细解释。
 
 1.  **FROM** 
@@ -386,7 +392,7 @@ ONBUILD <INSTRUCTION>
 ONBUILD ADD . /app/src
 ```
 
-## 例
+### 例
 ```dockerfile
 # 使用官方的 Node.js 镜像作为基础镜像
 FROM node:14
