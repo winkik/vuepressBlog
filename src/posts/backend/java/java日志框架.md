@@ -133,7 +133,7 @@ public void testSlf4j() {
 ```
 
 > 使用`Lombok`的`@Slf4j`注解
-
+**Spring中使用lombok仍需引入日志门面**
 ```xml
 		<!--引入Lombok依赖 -->
 		<dependency>
@@ -154,7 +154,7 @@ public void testSlf4j() {
 
 **注意**：
 
-- **Spring-boot-starter中已存在相关依赖，无需再手动引入**
+- **Spring-boot-starter中已存在日志实现相关依赖，无需再手动引入**
 
 ![](https://winkik.github.io/picx-images-hosting/image.2krz273unc.webp)
 
