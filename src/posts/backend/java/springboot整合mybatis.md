@@ -43,7 +43,7 @@ spring:
     │
     └─mybatis
         ├─config
-        │      mybatis-config.xml //mybatis配置文件
+        │      mybatis-config.xml //mybatis配置文件，或者在yml中配置
         │
         └─mapper  //mapper文件存放地址
                 Env_Mapper.xml 
@@ -53,6 +53,32 @@ spring:
 mybatis:
   mapper-locations: classpath:/mybatis/mapper/*.xml
   config-location:  classpath:/mybatis/config/mybatis-config.xml
+```
+**常用配置：**
+config.xml配置文件形式：
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 开启驼峰转换 -->
+    <settings>
+    <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <!-- 配置别名 -->
+    <typeAliases>
+        <package name="com.example.entity"/>
+    </typeAliases>
+
+</configuration>
+```
+yml配置文件形式：
+```yml
+mybatis:
+  type-aliases-package: com.example.entity
+  configuration:
+    map-underscore-to-camel-case: true
 ```
 3. 配置扫描mapper接口类
    - 在启动类上加入`@MapperScan("接口路径")`
